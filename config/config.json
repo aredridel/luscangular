@@ -17,6 +17,22 @@
             }
         },
 
+        "appsec": {
+            "enabled": true,
+            "priority": 110,
+            "module": {
+                "name": "lusca",
+                "arguments": [
+                    {
+                        "csrf": {"header": "X-XSRF-TOKEN"},
+                        "xframe": "SAMEORIGIN",
+                        "p3p": false,
+                        "csp": false
+                    }
+                ]
+            }
+        },
+
         "angularcsrf": {
             "priority": 111,
             "enabled": true,
