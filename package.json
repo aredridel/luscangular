@@ -2,7 +2,7 @@
   "name": "@aredridel/luscangular",
   "version": "0.1.0",
   "description": "A test of Lusca and Angular",
-  "author": "Aria Stewart &lt;ariastewart@paypal.com&gt;",
+  "author": "Aria Stewart <ariastewart@paypal.com>",
   "main": "index.js",
   "scripts": {
     "test": "grunt test"
