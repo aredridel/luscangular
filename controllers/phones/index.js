@@ -9,7 +9,7 @@ module.exports = function(router) {
     var model = new PhonesModel();
 
 
-    router.get('/', function(req, res) {
+    router.post('/', function(req, res) {
         res.send([
             {
                 'name': 'Nexus S',

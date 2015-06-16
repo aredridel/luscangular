@@ -3,7 +3,7 @@
 var phonecatApp = angular.module('phonecatApp', []);
 
 phonecatApp.controller('PhoneListCtrl', function ($http, $scope) {
-  $http.get('/phones').success(function(data) {
+  $http.post('/phones').success(function(data) {
     $scope.phones = data;
   });
 });
