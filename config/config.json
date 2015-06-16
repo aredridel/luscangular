@@ -15,6 +15,14 @@
             "module": {
                 "arguments": [{ "directory": "path:./controllers" }]
             }
+        },
+
+        "angularcsrf": {
+            "priority": 111,
+            "enabled": true,
+            "module": {
+                "name": "path:middleware/csrf-for-angular"
+            }
         }
 
         
