@@ -1,0 +1,36 @@
+{
+  "name": "luscangular",
+  "version": "0.1.0",
+  "description": "A test of Lusca and Angular",
+  "author": "Aria Stewart &lt;ariastewart@paypal.com&gt;",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "angular": "^1.4.1",
+    "engine-munger": "^0.2.5",
+    "express": "^4.12.2",
+    "kraken-devtools": "^1.2.1",
+    "kraken-js": "^1.0.3",
+    "localizr": "^0.1.6"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-config-dir": "^0.3.2",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-copy-to": "0.0.10",
+    "grunt-localizr": "^0.2.3",
+    "grunt-mocha-cli": "^1.13.0",
+    "mocha": "^1.18.0",
+    "supertest": "^0.9.0"
+  },
+  "generator-kraken": {
+    "version": "1.1.2",
+    "template": false,
+    "css": false,
+    "js": false,
+    "task": "grunt"
+  }
+}
