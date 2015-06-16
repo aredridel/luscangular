@@ -13,10 +13,6 @@ module.exports = function copyto(grunt) {
                     cwd: 'public',
                     src: ['**/*'],
                     dest: '.build/'
-                }, {
-                    cwd: 'node_modules/angular',
-                    src: ["**"],
-                    dest: "public/components/angular/"
                 }
             ],
             options: {

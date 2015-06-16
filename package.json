@@ -11,6 +11,7 @@
     "angular": "^1.4.1",
     "engine-munger": "^0.2.5",
     "express": "^4.12.2",
+    "grunt-copy-browser-modules": "^1.0.0-1",
     "kraken-devtools": "^1.2.1",
     "kraken-js": "^1.0.3",
     "localizr": "^0.1.6"
