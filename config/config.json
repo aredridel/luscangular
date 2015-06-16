@@ -5,6 +5,7 @@
     "middleware": {
 
         "static": {
+            "priority": 121,
             "module": {
                 "arguments": [ "path:./.build" ]
             }
